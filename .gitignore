@@ -73,4 +73,6 @@ CMakeLists.txt.user*
 *.exe
 
 # File list
-.\understanding.py
+understanding.py
+main.pdf
+Game.pdf

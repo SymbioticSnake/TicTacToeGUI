@@ -1,3 +1,6 @@
+'''Game.py: Contains the MainWindow classes used for the TicTacToe game.
+Do not run this if running from source code.'''
+
 from PyQt6.QtCore import QSize, Qt
 from PyQt6.QtWidgets import QWidget, QMainWindow, QGridLayout, QVBoxLayout, QPushButton, QLabel, QMessageBox
 from random import choice
@@ -69,16 +72,6 @@ class MainWindow(QMainWindow):
             self.__playAgain()
 
     def __checkWin(self):
-        # print("     |     |     ")
-        # print("  "+self.buttons[0][0].text()+"  |  "+self.buttons[0][1].text()+"  |  "+self.buttons[0][2].text()+"  ")
-        # print("_____|_____|_____")
-        # print("     |     |     ")
-        # print("  "+self.buttons[1][0].text()+"  |  "+self.buttons[1][1].text()+"  |  "+self.buttons[1][2].text()+"  ")
-        # print("_____|_____|_____")
-        # print("     |     |     ")
-        # print("  "+self.buttons[2][0].text()+"  |  "+self.buttons[2][1].text()+"  |  "+self.buttons[2][2].text()+"  ")
-        # print("     |     |     \n")
-
         if self.buttons[0][0].text() != " " and self.buttons[0][0].text() == self.buttons[0][1].text() and self.buttons[0][1].text() == self.buttons[0][2].text():
             winner = "You" if self.buttons[0][0].text() == "X" else "Computer"
         elif self.buttons[1][0].text() != " " and self.buttons[1][0].text() == self.buttons[1][1].text() and self.buttons[1][1].text() == self.buttons[1][2].text():

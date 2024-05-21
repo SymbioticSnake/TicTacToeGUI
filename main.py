@@ -1,3 +1,5 @@
+'''main.py: Run this to start the game.'''
+
 from PyQt6.QtWidgets import QApplication
 from Game import *
 import sys
