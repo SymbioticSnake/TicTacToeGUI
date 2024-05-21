@@ -1,8 +1,8 @@
 # TicTacToeGUI
 
-**Extended Description:** A simple TicTacToe GUI application that pits one player against a computer opponent. Written in PyQt6.
+A simple TicTacToe GUI application that pits one player against a computer opponent. Written in PyQt6.
 
-Note: What can be seen so far was done in one to two days and so does not illustrate most of my programming skills. I am hoping to include a more advanced choice algorithm for the computer's choice; for now, it's been set to use Python's built-in random.choice() function.
+**Note:** What can be seen so far was done in one to two days and so does not illustrate most of my programming skills. I am hoping to include a more advanced choice algorithm for the computer's choice; for now, it's been set to use Python's built-in random.choice() function.
 
 ## Credits
 Thanks to these wonderful resources for getitng me started with my first GUI program.
