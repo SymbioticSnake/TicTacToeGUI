@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
         self.winner = ("No one", False)
 
         ## Game GUI Creation ##
-        self.setWindowTitle("Tic Tac Toe")
+        self.setWindowTitle("Tito's Tic Tac Toe")
         self.setFixedSize(QSize(600, 300))
 
         # Creating central/main window
